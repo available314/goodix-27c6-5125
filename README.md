@@ -25,6 +25,22 @@ I don't fully understand why this happens. One hypothesis is that the original W
 - [`OpenSSL`](https://www.openssl.org/) (for TLS)
 - Standard C toolchain (`gcc`, `make`)
 
+## 🛠 How to Run
+
+Before launching the driver, start a local TLS server that mimics the behavior of the embedded server the device expects. The driver connects to it and performs a handshake over this connection.
+
+You can use [`OpenSSL`](https://www.openssl.org/) or a custom minimal TLS echo server with PSK support. For example:
+
+```bash
+openssl s_server \
+  -nocert \
+  -psk 0000000000000000000000000000000000000000000000000000000000000000 \
+  -port 5353 \
+  -quiet \
+  -debug \
+  -cipher PSK-AES128-GCM-SHA256
+```
+
 ## ⚠️ Disclaimer
 
 This is an experimental and unofficial project. Use it at your own risk. I am not affiliated with Goodix in any way.
