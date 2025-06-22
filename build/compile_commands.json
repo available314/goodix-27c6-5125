@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/pentester/Reverse/gfusb/build",
+  "command": "/usr/bin/cc  -I/home/pentester/Reverse/gfusb/include -I/usr/include/libusb-1.0 -std=gnu99 -o CMakeFiles/goodix_driver.dir/src/buffers.c.o -c /home/pentester/Reverse/gfusb/src/buffers.c",
+  "file": "/home/pentester/Reverse/gfusb/src/buffers.c",
+  "output": "CMakeFiles/goodix_driver.dir/src/buffers.c.o"
+},
+{
+  "directory": "/home/pentester/Reverse/gfusb/build",
+  "command": "/usr/bin/cc  -I/home/pentester/Reverse/gfusb/include -I/usr/include/libusb-1.0 -std=gnu99 -o CMakeFiles/goodix_driver.dir/src/constants.c.o -c /home/pentester/Reverse/gfusb/src/constants.c",
+  "file": "/home/pentester/Reverse/gfusb/src/constants.c",
+  "output": "CMakeFiles/goodix_driver.dir/src/constants.c.o"
+},
+{
+  "directory": "/home/pentester/Reverse/gfusb/build",
+  "command": "/usr/bin/cc  -I/home/pentester/Reverse/gfusb/include -I/usr/include/libusb-1.0 -std=gnu99 -o CMakeFiles/goodix_driver.dir/src/driver.c.o -c /home/pentester/Reverse/gfusb/src/driver.c",
+  "file": "/home/pentester/Reverse/gfusb/src/driver.c",
+  "output": "CMakeFiles/goodix_driver.dir/src/driver.c.o"
+},
+{
+  "directory": "/home/pentester/Reverse/gfusb/build",
+  "command": "/usr/bin/cc  -I/home/pentester/Reverse/gfusb/include -I/usr/include/libusb-1.0 -std=gnu99 -o CMakeFiles/goodix_driver.dir/src/goodix_init_seq.c.o -c /home/pentester/Reverse/gfusb/src/goodix_init_seq.c",
+  "file": "/home/pentester/Reverse/gfusb/src/goodix_init_seq.c",
+  "output": "CMakeFiles/goodix_driver.dir/src/goodix_init_seq.c.o"
+},
+{
+  "directory": "/home/pentester/Reverse/gfusb/build",
+  "command": "/usr/bin/cc  -I/home/pentester/Reverse/gfusb/include -I/usr/include/libusb-1.0 -std=gnu99 -o CMakeFiles/goodix_driver.dir/src/goodix_protocol.c.o -c /home/pentester/Reverse/gfusb/src/goodix_protocol.c",
+  "file": "/home/pentester/Reverse/gfusb/src/goodix_protocol.c",
+  "output": "CMakeFiles/goodix_driver.dir/src/goodix_protocol.c.o"
+},
+{
+  "directory": "/home/pentester/Reverse/gfusb/build",
+  "command": "/usr/bin/cc  -I/home/pentester/Reverse/gfusb/include -I/usr/include/libusb-1.0 -std=gnu99 -o CMakeFiles/goodix_driver.dir/src/goodix_tls.c.o -c /home/pentester/Reverse/gfusb/src/goodix_tls.c",
+  "file": "/home/pentester/Reverse/gfusb/src/goodix_tls.c",
+  "output": "CMakeFiles/goodix_driver.dir/src/goodix_tls.c.o"
+},
+{
+  "directory": "/home/pentester/Reverse/gfusb/build",
+  "command": "/usr/bin/cc  -I/home/pentester/Reverse/gfusb/include -I/usr/include/libusb-1.0 -std=gnu99 -o CMakeFiles/goodix_driver.dir/src/goodix_usb.c.o -c /home/pentester/Reverse/gfusb/src/goodix_usb.c",
+  "file": "/home/pentester/Reverse/gfusb/src/goodix_usb.c",
+  "output": "CMakeFiles/goodix_driver.dir/src/goodix_usb.c.o"
+},
+{
+  "directory": "/home/pentester/Reverse/gfusb/build",
+  "command": "/usr/bin/cc  -I/home/pentester/Reverse/gfusb/include -I/usr/include/libusb-1.0 -std=gnu99 -o CMakeFiles/goodix_driver.dir/src/tls.c.o -c /home/pentester/Reverse/gfusb/src/tls.c",
+  "file": "/home/pentester/Reverse/gfusb/src/tls.c",
+  "output": "CMakeFiles/goodix_driver.dir/src/tls.c.o"
+}
+]

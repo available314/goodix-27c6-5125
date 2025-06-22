@@ -1,0 +1,3 @@
+/home/pentester/Reverse/gfusb/build/CMakeFiles/goodix_driver.dir
+/home/pentester/Reverse/gfusb/build/CMakeFiles/edit_cache.dir
+/home/pentester/Reverse/gfusb/build/CMakeFiles/rebuild_cache.dir
